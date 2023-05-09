@@ -1,0 +1,15 @@
+{
+  "name": "homepage-saturnsports",
+  "version": "1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx browser-sync -w"
+  },
+  "keywords": [],
+  "author": "iamthepoe",
+  "license": "",
+  "description": "A simple homepage app for the 2023 hackathon, of etec from peruibe",
+  "devDependencies": {
+    "browser-sync": "^2.27.11"
+  }
+}

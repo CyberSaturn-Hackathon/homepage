@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saturn Sports</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./lib/index.css">
+</head>
+
+<body id="body">
+  <canvas id="hands"></canvas>
+  <div class="content">
+      <header class="header">
+          <h1 style="color: #edebeb;">Saturn<span style="color: rgb(84, 255, 5);">Sports</span></h1>
+      </header>
+
+      <div class="card-area">
+        <div class="card">
+          <div class="card-header">
+            <h4>Guia Básico</h4>
+          </div>
+          <div class="card-body"></div>
+          <div class="card-footer">
+            <button class="btn btn-success">Acessar Guia</button>
+          </div>
+        </div>
+        <div class="card" id="adminArea">
+          <div class="card-header">
+            <h4>Área Administrativa</h4>
+          </div>
+          <div class="card-body"></div>
+          <div class="card-footer">
+            <button class="btn btn-success">Acessar Área</button>
+          </div>
+        </div>
+        <div class="card" id="userArea">
+          <div class="card-header">
+            <h4>Área de Usuário</h4>
+          </div>
+          <div class="card-body"></div>
+          <div class="card-footer">
+            <button class="btn btn-success">Acessar Área</button>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+            <h4>Made In <span style="color: rgb(173, 255, 50);">Hackathon.</span></h4>
+      </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/gh/TSedlar/pseudo-styler@1.0.8/pseudostyler.js"></script>
+  <script type="module" src="./src/index.js"></script>
+  <script>
+    document.getElementById('userArea').style.backgroundImage = `url(../../assets/member.jpg)`;
+    document.getElementById('adminArea').style.backgroundImage = `url(../../assets/admin.jpg)`;
+  </script>
+</body>
+
+</html>
